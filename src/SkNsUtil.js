@@ -1,12 +1,14 @@
 function SKMTI() {}
 
 SKMTI.prototype.util = {
-	isEmpty: function(value) {
+  isEmpty: function(value) {
+		var nullValues = [null, '', undefined, "undefined"];
+
 		if (value instanceof Array) {
 			return (value.length < 1);
 		}
 
-		return (value === '' || value === null || value === undefined || value === "undefined");
+		return SKMTI.array.contains(nullValues, value);
 	},
 	getAbsoluteURL: (function() {
 		var a;
