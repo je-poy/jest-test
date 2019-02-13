@@ -1,0 +1,22 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "Sample unit testing using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/je-poy/jest-test.git"
+  },
+  "author": "jeffcanale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/je-poy/jest-test/issues"
+  },
+  "homepage": "https://github.com/je-poy/jest-test#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
